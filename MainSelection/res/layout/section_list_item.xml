@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    	android:orientation="horizontal" >
+
+    		<TextView                
+			    android:id="@+id/sectionlistname"             
+			    android:layout_width="0dp"
+			    android:layout_weight="3"             
+			    android:layout_height="wrap_content"
+			    android:paddingLeft="5dp" 
+			    android:textSize="24sp" />
+				                      
+			
+			        
+			<CheckedTextView 
+				android:id="@+id/sectionlistcount"                  
+			    android:layout_width="0dp"
+			    android:layout_weight="3"               
+			    android:layout_height="wrap_content"
+				android:gravity="center_vertical"     
+				android:checkMark="?android:attr/listChoiceIndicatorMultiple"     
+				android:paddingLeft="6dip"     
+				android:paddingRight="6dip"
+			    android:textSize="24sp" /> 
+
+</LinearLayout>

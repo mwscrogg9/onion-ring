@@ -1,0 +1,387 @@
+
+<resources>
+
+    
+	<integer-array
+		name="BaseCharacters">
+			<item>913</item>   <item>914</item>   <item>915</item>   <item>916</item>   <item>917</item>   <item>918</item>   <item>919</item>   <item>920</item>   
+			<item>921</item>   <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>927</item>   <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>933</item>   <item>934</item>   <item>935</item>   <item>936</item>   <item>937</item>   
+			<item>945</item>   <item>946</item>   <item>947</item>   <item>948</item>   <item>949</item>   <item>950</item>   <item>951</item>   <item>952</item>   
+			<item>953</item>   <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>959</item>   <item>960</item>   
+			<item>961</item>   <item>962</item>   <item>964</item>   <item>965</item>   <item>966</item>   <item>967</item>   <item>968</item>   <item>969</item>   
+			<item>7936</item>  <item>7937</item>  <item>7938</item>  <item>7939</item>  <item>7940</item>  <item>7941</item>  <item>7942</item>  <item>7943</item>  
+			<item>7944</item>  <item>7945</item>  <item>7946</item>  <item>7947</item>  <item>7948</item>  <item>7949</item>  <item>7950</item>  <item>7951</item>  
+			<item>7952</item>  <item>7953</item>  <item>7954</item>  <item>7955</item>  <item>7956</item>  <item>7957</item>  <item>7960</item>  <item>7961</item>  
+			<item>7962</item>  <item>7963</item>  <item>7964</item>  <item>7965</item>  <item>7968</item>  <item>7969</item>  <item>7970</item>  <item>7971</item>  
+			<item>7972</item>  <item>7973</item>  <item>7974</item>  <item>7975</item>  <item>7976</item>  <item>7977</item>  <item>7978</item>  <item>7979</item>  
+			<item>7980</item>  <item>7981</item>  <item>7982</item>  <item>7983</item>  <item>7984</item>  <item>7985</item>  <item>7986</item>  <item>7987</item>  
+			<item>7988</item>  <item>7989</item>  <item>7990</item>  <item>7991</item>  <item>7992</item>  <item>7993</item>  <item>7994</item>  <item>7995</item>  
+			<item>7996</item>  <item>7997</item>  <item>7998</item>  <item>7999</item>  <item>8000</item>  <item>8001</item>  <item>8002</item>  <item>8003</item>  
+			<item>8004</item>  <item>8005</item>  <item>8008</item>  <item>8009</item>  <item>8010</item>  <item>8011</item>  <item>8012</item>  <item>8013</item>  
+			<item>8016</item>  <item>8017</item>  <item>8018</item>  <item>8019</item>  <item>8020</item>  <item>8021</item>  <item>8022</item>  <item>8023</item>  
+			<item>8024</item>  <item>8025</item>  <item>8026</item>  <item>8027</item>  <item>8028</item>  <item>8029</item>  <item>8030</item>  <item>8031</item>  
+			<item>8032</item>  <item>8033</item>  <item>8034</item>  <item>8035</item>  <item>8036</item>  <item>8037</item>  <item>8038</item>  <item>8039</item>  
+			<item>8040</item>  <item>8041</item>  <item>8042</item>  <item>8043</item>  <item>8044</item>  <item>8045</item>  <item>8046</item>  <item>8047</item>  
+			<item>8048</item>  <item>8049</item>  <item>8050</item>  <item>8051</item>  <item>8052</item>  <item>8053</item>  <item>8054</item>  <item>8055</item>  
+			<item>8056</item>  <item>8057</item>  <item>8058</item>  <item>8059</item>  <item>8060</item>  <item>8061</item>  <item>8064</item>  <item>8065</item>  
+			<item>8066</item>  <item>8067</item>  <item>8068</item>  <item>8069</item>  <item>8070</item>  <item>8071</item>  <item>8080</item>  <item>8081</item>  
+			<item>8082</item>  <item>8083</item>  <item>8084</item>  <item>8085</item>  <item>8086</item>  <item>8087</item>  <item>8096</item>  <item>8097</item>  
+			<item>8098</item>  <item>8099</item>  <item>8100</item>  <item>8101</item>  <item>8102</item>  <item>8103</item>  <item>8112</item>  <item>8113</item>  
+			<item>8114</item>  <item>8115</item>  <item>8116</item>  <item>8118</item>  <item>8119</item>  <item>8120</item>  <item>8121</item>  <item>8122</item>  
+			<item>8123</item>  <item>8130</item>  <item>8131</item>  <item>8132</item>  <item>8134</item>  <item>8135</item>  <item>8136</item>  <item>8137</item>  
+			<item>8138</item>  <item>8139</item>  <item>8144</item>  <item>8145</item>  <item>8150</item>  <item>8152</item>  <item>8153</item>  <item>8154</item>  
+			<item>8155</item>  <item>8160</item>  <item>8161</item>  <item>8164</item>  <item>8165</item>  <item>8166</item>  <item>8168</item>  <item>8169</item>  
+			<item>8170</item>  <item>8171</item>  <item>8172</item>  <item>8178</item>  <item>8179</item>  <item>8180</item>  <item>8182</item>  <item>8183</item>  
+			<item>8184</item>  <item>8185</item>  <item>8186</item>  <item>8187</item>  <item>57769</item> <item>57770</item> <item>57771</item> <item>57772</item> 
+			<item>57773</item> <item>57774</item> <item>57775</item> <item>57776</item> <item>57777</item> <item>57778</item> <item>57779</item> <item>57780</item> 
+			<item>57781</item> <item>57782</item> <item>57783</item> <item>57784</item> <item>57785</item> <item>57786</item> <item>57787</item> <item>57788</item> 
+			<item>57789</item> <item>57790</item> <item>57791</item> <item>57792</item> <item>57793</item> <item>57794</item> <item>57795</item> <item>57796</item> 
+			<item>57797</item> <item>57798</item> <item>57799</item> <item>57800</item> <item>57801</item> <item>57802</item> <item>57803</item> <item>57804</item> 
+			<item>57805</item> <item>57806</item> <item>57807</item> <item>60146</item> <item>60147</item> <item>60148</item> <item>60149</item> <item>60150</item> 
+			<item>60152</item> <item>60153</item> <item>60154</item> <item>60155</item> <item>60156</item> <item>60160</item> <item>60164</item> <item>60165</item> 
+			<item>60167</item> <item>60169</item> <item>60170</item> <item>60171</item> <item>60172</item> <item>60214</item> <item>60216</item> <item>60217</item> 
+			<item>60220</item> <item>60221</item> <item>60222</item> <item>60223</item> <item>60224</item> <item>60225</item> <item>60226</item> <item>60227</item> 
+			<item>60228</item> <item>60229</item> <item>60231</item> <item>60232</item> <item>60244</item> <item>60245</item> <item>60247</item> <item>60248</item> 
+			<item>60271</item> <item>60272</item> <item>60273</item> <item>60277</item> <item>60279</item> <item>60280</item> <item>60282</item> <item>60285</item> 
+			<item>60286</item> <item>60287</item> <item>60288</item> <item>60289</item> <item>60290</item> <item>60291</item> <item>60292</item> <item>60293</item> 
+			<item>60296</item> <item>60297</item> <item>60298</item> <item>60448</item> <item>60449</item> <item>60450</item> <item>60451</item> <item>60452</item> 
+			<item>60453</item> <item>60454</item> <item>60455</item> <item>60456</item> <item>60457</item> <item>60458</item> <item>60459</item> <item>60460</item> 
+			<item>60461</item> <item>60462</item> <item>60463</item> <item>60464</item> <item>60465</item> <item>60466</item> <item>60467</item> <item>60468</item> 
+			<item>60469</item> <item>60470</item> <item>60471</item> <item>60472</item> <item>60473</item> <item>60474</item> <item>59193</item> <item>59194</item> 
+			<item>59195</item> <item>59196</item> <item>59197</item> <item>59198</item> <item>59199</item> <item>59200</item> <item>59201</item> <item>59202</item> 
+			<item>59203</item> <item>59204</item> <item>59205</item> <item>59206</item> <item>59207</item> <item>59270</item> <item>59271</item> <item>59272</item> 
+			<item>59273</item> <item>59274</item> <item>59275</item> <item>59276</item> <item>59277</item> <item>59302</item> <item>59303</item> <item>59304</item> 
+			<item>59305</item> <item>59306</item> <item>59307</item> <item>59308</item> <item>59309</item> <item>59310</item> <item>59311</item> <item>59312</item> 
+			<item>59313</item> <item>59314</item> <item>59315</item> <item>59316</item> <item>59317</item> <item>0</item>
+	</integer-array>
+	
+	<integer-array
+		name="RootLetter">
+			<item>913</item>   <item>914</item>   <item>915</item>   <item>916</item>   <item>917</item>   <item>918</item>   <item>919</item>   <item>920</item>   
+			<item>921</item>   <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>927</item>   <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>933</item>   <item>934</item>   <item>935</item>   <item>936</item>   <item>937</item>   
+			<item>913</item>   <item>914</item>   <item>915</item>   <item>916</item>   <item>917</item>   <item>918</item>   <item>919</item>   <item>920</item>   
+			<item>921</item>   <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>927</item>   <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>933</item>   <item>934</item>   <item>935</item>   <item>936</item>   <item>937</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   
+			<item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   
+			<item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   
+			<item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   
+			<item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   
+			<item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   
+			<item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   
+			<item>913</item>   <item>913</item>   <item>917</item>   <item>917</item>   <item>919</item>   <item>919</item>   <item>921</item>   <item>921</item>   
+			<item>927</item>   <item>927</item>   <item>933</item>   <item>933</item>   <item>937</item>   <item>937</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>919</item>   <item>919</item>   
+			<item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>937</item>   <item>937</item>   
+			<item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>917</item>   <item>917</item>   
+			<item>919</item>   <item>919</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>921</item>   <item>933</item>   <item>933</item>   <item>929</item>   <item>929</item>   <item>933</item>   <item>933</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>929</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   
+			<item>927</item>   <item>927</item>   <item>937</item>   <item>937</item>   <item>917</item>   <item>927</item>   <item>929</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   
+			<item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   <item>917</item>   
+			<item>917</item>   <item>917</item>   <item>917</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   
+			<item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   <item>927</item>   
+			<item>927</item>   <item>927</item>   <item>927</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>913</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   
+			<item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>919</item>   <item>937</item>   <item>937</item>   <item>937</item>   
+			<item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>937</item>   <item>913</item>   <item>913</item>   
+			<item>921</item>   <item>933</item>   <item>913</item>   <item>919</item>   <item>937</item>   <item>921</item>   <item>933</item>   <item>913</item>   
+			<item>919</item>   <item>937</item>   <item>913</item>   <item>919</item>   <item>933</item>   <item>937</item>   <item>913</item>   <item>919</item>   
+			<item>937</item>   <item>913</item>   <item>921</item>   <item>913</item>   <item>921</item>   <item>933</item>   <item>921</item>   <item>913</item>   
+			<item>913</item>   <item>913</item>   <item>913</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>921</item>   <item>933</item>   
+			<item>933</item>   <item>933</item>   <item>933</item>   <item>933</item>   <item>913</item>   <item>0</item>
+	</integer-array>
+	
+	
+	<integer-array
+		name="CycleAccent">
+			<item>8122</item>  <item>914</item>   <item>915</item>   <item>916</item>   <item>8136</item>  <item>918</item>   <item>8138</item>  <item>920</item>   
+			<item>8154</item>  <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>8184</item>  <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>8170</item>  <item>934</item>   <item>935</item>   <item>936</item>   <item>8186</item>  
+			<item>8048</item>  <item>946</item>   <item>947</item>   <item>948</item>   <item>8050</item>  <item>950</item>   <item>8052</item>  <item>952</item>   
+			<item>8054</item>  <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>8056</item>  <item>960</item>   
+			<item>961</item>   <item>962</item>   <item>964</item>   <item>8058</item>  <item>966</item>   <item>967</item>   <item>968</item>   <item>8060</item>  
+			<item>7938</item>  <item>7939</item>  <item>7940</item>  <item>7941</item>  <item>7942</item>  <item>7943</item>  <item>7936</item>  <item>7937</item>  
+			<item>7946</item>  <item>7947</item>  <item>7948</item>  <item>7949</item>  <item>7950</item>  <item>7951</item>  <item>7944</item>  <item>7945</item>  
+			<item>7954</item>  <item>7955</item>  <item>7956</item>  <item>7957</item>  <item>57777</item> <item>57778</item> <item>7962</item>  <item>7963</item>  
+			<item>7964</item>  <item>7965</item>  <item>57788</item> <item>57789</item> <item>7970</item>  <item>7971</item>  <item>7972</item>  <item>7973</item>  
+			<item>7974</item>  <item>7975</item>  <item>7968</item>  <item>7969</item>  <item>7978</item>  <item>7979</item>  <item>7980</item>  <item>7981</item>  
+			<item>7982</item>  <item>7983</item>  <item>7976</item>  <item>7977</item>  <item>7986</item>  <item>7987</item>  <item>7988</item>  <item>7989</item>  
+			<item>7990</item>  <item>7991</item>  <item>7984</item>  <item>7985</item>  <item>7994</item>  <item>7995</item>  <item>7996</item>  <item>7997</item>  
+			<item>7998</item>  <item>7999</item>  <item>7992</item>  <item>7993</item>  <item>8002</item>  <item>8003</item>  <item>8004</item>  <item>8005</item>  
+			<item>57793</item> <item>57794</item> <item>8010</item>  <item>8011</item>  <item>8012</item>  <item>8013</item>  <item>57804</item> <item>57805</item> 
+			<item>8018</item>  <item>8019</item>  <item>8020</item>  <item>8021</item>  <item>8022</item>  <item>8023</item>  <item>8016</item>  <item>8017</item>  
+			<item>8026</item>  <item>8027</item>  <item>8028</item>  <item>8029</item>  <item>8030</item>  <item>8031</item>  <item>8024</item>  <item>8025</item>  
+			<item>8034</item>  <item>8035</item>  <item>8036</item>  <item>8037</item>  <item>8038</item>  <item>8039</item>  <item>8032</item>  <item>8033</item>  
+			<item>8042</item>  <item>8043</item>  <item>8044</item>  <item>8045</item>  <item>8046</item>  <item>8047</item>  <item>8040</item>  <item>8041</item>  
+			<item>8049</item>  <item>8118</item>  <item>8051</item>  <item>57776</item> <item>8053</item>  <item>8134</item>  <item>8055</item>  <item>8150</item>  
+			<item>8057</item>  <item>57792</item> <item>8059</item>  <item>8166</item>  <item>8061</item>  <item>8182</item>  <item>8066</item>  <item>8067</item>  
+			<item>8068</item>  <item>8069</item>  <item>8070</item>  <item>8071</item>  <item>8064</item>  <item>8065</item>  <item>8082</item>  <item>8083</item>  
+			<item>8084</item>  <item>8085</item>  <item>8086</item>  <item>8087</item>  <item>8080</item>  <item>8081</item>  <item>8098</item>  <item>8099</item>  
+			<item>8100</item>  <item>8101</item>  <item>8102</item>  <item>8103</item>  <item>8096</item>  <item>8097</item>  <item>60152</item> <item>59193</item> 
+			<item>8116</item>  <item>8114</item>  <item>8119</item>  <item>945</item>   <item>8115</item>  <item>8120</item>  <item>59194</item> <item>8123</item>  
+			<item>59205</item> <item>8132</item>  <item>8130</item>  <item>8135</item>  <item>951</item>   <item>8131</item>  <item>8137</item>  <item>8137</item>  
+			<item>8139</item>  <item>59206</item> <item>60228</item> <item>60216</item> <item>953</item>   <item>8152</item>  <item>59195</item> <item>8155</item>  
+			<item>59303</item> <item>60291</item> <item>60271</item> <item>8164</item>  <item>8165</item>  <item>965</item>   <item>8168</item>  <item>59196</item> 
+			<item>8171</item>  <item>59207</item> <item>8172</item>  <item>8180</item>  <item>8178</item>  <item>8183</item>  <item>969</item>   <item>8179</item>  
+			<item>8185</item>  <item>8185</item>  <item>8187</item>  <item>59270</item> <item>57769</item> <item>57770</item> <item>57771</item> <item>8026</item>  
+			<item>8028</item>  <item>8030</item>  <item>8024</item>  <item>949</item>   <item>7952</item>  <item>7953</item>  <item>57781</item> <item>57780</item> 
+			<item>57780</item> <item>57784</item> <item>57785</item> <item>57786</item> <item>57787</item> <item>57786</item> <item>57787</item> <item>7960</item>  
+			<item>7961</item>  <item>57790</item> <item>57791</item> <item>959</item>   <item>8000</item>  <item>8001</item>  <item>57797</item> <item>57796</item> 
+			<item>57796</item> <item>57800</item> <item>57801</item> <item>57802</item> <item>57803</item> <item>57802</item> <item>57803</item> <item>8008</item>  
+			<item>8009</item>  <item>57806</item> <item>57807</item> <item>8113</item>  <item>60167</item> <item>60169</item> <item>60164</item> <item>60165</item> 
+			<item>60170</item> <item>60154</item> <item>60172</item> <item>60155</item> <item>60155</item> <item>60146</item> <item>60147</item> <item>60148</item> 
+			<item>60149</item> <item>60150</item> <item>60170</item> <item>60156</item> <item>60172</item> <item>8145</item>  <item>60217</item> <item>60214</item> 
+			<item>60244</item> <item>60247</item> <item>60245</item> <item>60248</item> <item>60224</item> <item>60229</item> <item>60226</item> <item>60232</item> 
+			<item>60224</item> <item>60226</item> <item>60231</item> <item>60231</item> <item>60221</item> <item>60223</item> <item>60220</item> <item>60222</item> 
+			<item>60282</item> <item>8161</item>  <item>60287</item> <item>60288</item> <item>60285</item> <item>60286</item> <item>60272</item> <item>60273</item> 
+			<item>60277</item> <item>60279</item> <item>60280</item> <item>60289</item> <item>60298</item> <item>60289</item> <item>60296</item> <item>60293</item> 
+			<item>60293</item> <item>60297</item> <item>60297</item> <item>59197</item> <item>60451</item> <item>60452</item> <item>60453</item> <item>60454</item> 
+			<item>60455</item> <item>60456</item> <item>60449</item> <item>60450</item> <item>59198</item> <item>60460</item> <item>60461</item> <item>60462</item> 
+			<item>60463</item> <item>60464</item> <item>60465</item> <item>60458</item> <item>60459</item> <item>59199</item> <item>60469</item> <item>60470</item> 
+			<item>60471</item> <item>60472</item> <item>60473</item> <item>60474</item> <item>60467</item> <item>60468</item> <item>60160</item> <item>59317</item> 
+			<item>59200</item> <item>59201</item> <item>59202</item> <item>59203</item> <item>59204</item> <item>59200</item> <item>59201</item> <item>59271</item> 
+			<item>59272</item> <item>59273</item> <item>913</item>   <item>919</item>   <item>933</item>   <item>937</item>   <item>60448</item> <item>60457</item> 
+			<item>60466</item> <item>59305</item> <item>59309</item> <item>59304</item> <item>59308</item> <item>59313</item> <item>921</item>   <item>59306</item> 
+			<item>59307</item> <item>59306</item> <item>59307</item> <item>59310</item> <item>59311</item> <item>59310</item> <item>59311</item> <item>59314</item> 
+			<item>59315</item> <item>59316</item> <item>59315</item> <item>59316</item> <item>59317</item> <item>0</item>
+	</integer-array>
+	
+	<integer-array
+		name="CycleBreath">
+			<item>7945</item>  <item>914</item>   <item>915</item>   <item>916</item>   <item>7961</item>  <item>918</item>   <item>7977</item>  <item>920</item>   
+			<item>7993</item>  <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>8009</item>  <item>928</item>   
+			<item>8172</item>  <item>931</item>   <item>932</item>   <item>8025</item>  <item>934</item>   <item>935</item>   <item>936</item>   <item>8041</item>  
+			<item>7937</item>  <item>946</item>   <item>947</item>   <item>948</item>   <item>7953</item>  <item>950</item>   <item>7969</item>  <item>952</item>   
+			<item>7985</item>  <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>8001</item>  <item>960</item>   
+			<item>8165</item>  <item>962</item>   <item>964</item>   <item>8017</item>  <item>966</item>   <item>967</item>   <item>968</item>   <item>8033</item>  
+			<item>945</item>   <item>7936</item>  <item>8048</item>  <item>7938</item>  <item>8049</item>  <item>7940</item>  <item>8118</item>  <item>7942</item>  
+			<item>913</item>   <item>7944</item>  <item>8122</item>  <item>7946</item>  <item>8123</item>  <item>7948</item>  <item>59205</item> <item>7950</item>  
+			<item>949</item>   <item>7952</item>  <item>8050</item>  <item>7954</item>  <item>8051</item>  <item>7956</item>  <item>917</item>   <item>7960</item>  
+			<item>8136</item>  <item>7962</item>  <item>8137</item>  <item>7964</item>  <item>951</item>   <item>7968</item>  <item>8052</item>  <item>7970</item>  
+			<item>8053</item>  <item>7972</item>  <item>8134</item>  <item>7974</item>  <item>919</item>   <item>7976</item>  <item>8138</item>  <item>7978</item>  
+			<item>8139</item>  <item>7980</item>  <item>59206</item> <item>7982</item>  <item>953</item>   <item>7984</item>  <item>8054</item>  <item>7986</item>  
+			<item>8055</item>  <item>7988</item>  <item>8150</item>  <item>7990</item>  <item>921</item>   <item>7992</item>  <item>8154</item>  <item>7994</item>  
+			<item>8155</item>  <item>7996</item>  <item>59303</item> <item>7998</item>  <item>959</item>   <item>8000</item>  <item>8056</item>  <item>8002</item>  
+			<item>8057</item>  <item>8004</item>  <item>927</item>   <item>8008</item>  <item>8184</item>  <item>8010</item>  <item>8185</item>  <item>8012</item>  
+			<item>965</item>   <item>8016</item>  <item>8058</item>  <item>8018</item>  <item>8059</item>  <item>8020</item>  <item>8166</item>  <item>8022</item>  
+			<item>933</item>   <item>8024</item>  <item>8170</item>  <item>8026</item>  <item>8171</item>  <item>8028</item>  <item>59207</item> <item>8030</item>  
+			<item>969</item>   <item>8032</item>  <item>8060</item>  <item>8034</item>  <item>8061</item>  <item>8036</item>  <item>8182</item>  <item>8038</item>  
+			<item>937</item>   <item>8040</item>  <item>8186</item>  <item>8042</item>  <item>8187</item>  <item>8044</item>  <item>59270</item> <item>8046</item>  
+			<item>7939</item>  <item>7941</item>  <item>7955</item>  <item>7957</item>  <item>7971</item>  <item>7973</item>  <item>7987</item>  <item>7989</item>  
+			<item>8003</item>  <item>8005</item>  <item>8019</item>  <item>8021</item>  <item>8035</item>  <item>8037</item>  <item>8115</item>  <item>8064</item>  
+			<item>8114</item>  <item>8066</item>  <item>8116</item>  <item>8068</item>  <item>8119</item>  <item>8070</item>  <item>8131</item>  <item>8080</item>  
+			<item>8130</item>  <item>8082</item>  <item>8132</item>  <item>8084</item>  <item>8135</item>  <item>8086</item>  <item>8179</item>  <item>8096</item>  
+			<item>8178</item>  <item>8098</item>  <item>8180</item>  <item>8100</item>  <item>8183</item>  <item>8102</item>  <item>60171</item> <item>60165</item> 
+			<item>8067</item>  <item>8065</item>  <item>8069</item>  <item>7943</item>  <item>8071</item>  <item>8120</item>  <item>59274</item> <item>7947</item>  
+			<item>7949</item>  <item>8083</item>  <item>8081</item>  <item>8085</item>  <item>7975</item>  <item>8087</item>  <item>7963</item>  <item>7965</item>  
+			<item>7979</item>  <item>7981</item>  <item>60227</item> <item>60222</item> <item>7991</item>  <item>8152</item>  <item>59275</item> <item>7995</item>  
+			<item>7997</item>  <item>60290</item> <item>60286</item> <item>961</item>   <item>8164</item>  <item>8023</item>  <item>8168</item>  <item>59312</item> 
+			<item>8027</item>  <item>8029</item>  <item>57771</item> <item>8099</item>  <item>8097</item>  <item>8101</item>  <item>8039</item>  <item>8103</item>  
+			<item>8011</item>  <item>8013</item>  <item>8043</item>  <item>8045</item>  <item>57769</item> <item>57770</item> <item>929</item>   <item>933</item>   
+			<item>8170</item>  <item>8171</item>  <item>59207</item> <item>57778</item> <item>57776</item> <item>57777</item> <item>57783</item> <item>57787</item> 
+			<item>57785</item> <item>57779</item> <item>57782</item> <item>57781</item> <item>57784</item> <item>57780</item> <item>57786</item> <item>57788</item> 
+			<item>57788</item> <item>57790</item> <item>57791</item> <item>57794</item> <item>57792</item> <item>57793</item> <item>57799</item> <item>57803</item> 
+			<item>57801</item> <item>57795</item> <item>57798</item> <item>57797</item> <item>57800</item> <item>57796</item> <item>57802</item> <item>57804</item> 
+			<item>57804</item> <item>57806</item> <item>57807</item> <item>60150</item> <item>59193</item> <item>60147</item> <item>60146</item> <item>60149</item> 
+			<item>60156</item> <item>8112</item>  <item>60152</item> <item>60172</item> <item>60154</item> <item>60169</item> <item>8113</item>  <item>60164</item> 
+			<item>60160</item> <item>60167</item> <item>60155</item> <item>60153</item> <item>60170</item> <item>60248</item> <item>60245</item> <item>60223</item> 
+			<item>8145</item>  <item>60217</item> <item>60220</item> <item>60221</item> <item>60231</item> <item>8144</item>  <item>60224</item> <item>60225</item> 
+			<item>60232</item> <item>60228</item> <item>60226</item> <item>60229</item> <item>60216</item> <item>60244</item> <item>60214</item> <item>60247</item> 
+			<item>60277</item> <item>60280</item> <item>60271</item> <item>60273</item> <item>60272</item> <item>60279</item> <item>60288</item> <item>8161</item>  
+			<item>60285</item> <item>60282</item> <item>60287</item> <item>60297</item> <item>60292</item> <item>60298</item> <item>8160</item>  <item>60289</item> 
+			<item>60291</item> <item>60293</item> <item>60296</item> <item>60450</item> <item>60448</item> <item>60449</item> <item>59197</item> <item>60451</item> 
+			<item>59202</item> <item>60453</item> <item>59271</item> <item>60455</item> <item>60459</item> <item>60457</item> <item>60458</item> <item>59198</item> 
+			<item>60460</item> <item>59203</item> <item>60462</item> <item>59272</item> <item>60464</item> <item>60468</item> <item>60466</item> <item>60467</item> 
+			<item>59199</item> <item>60469</item> <item>59204</item> <item>60471</item> <item>59273</item> <item>60473</item> <item>60148</item> <item>59305</item> 
+			<item>59309</item> <item>59314</item> <item>60452</item> <item>60461</item> <item>60470</item> <item>59311</item> <item>59316</item> <item>60454</item> 
+			<item>60463</item> <item>60472</item> <item>7951</item>  <item>7983</item>  <item>8031</item>  <item>8047</item>  <item>60456</item> <item>60465</item> 
+			<item>60474</item> <item>59276</item> <item>59277</item> <item>8121</item>  <item>8153</item>  <item>8169</item>  <item>7999</item>  <item>59194</item> 
+			<item>59304</item> <item>59317</item> <item>59306</item> <item>59195</item> <item>59308</item> <item>59200</item> <item>59310</item> <item>59302</item> 
+			<item>59196</item> <item>59313</item> <item>59201</item> <item>59315</item> <item>59307</item> <item>0</item>
+	</integer-array>
+	
+	<integer-array
+		name="CycleIota">
+			<item>60448</item> <item>914</item>   <item>915</item>   <item>916</item>   <item>917</item>   <item>918</item>   <item>60457</item> <item>920</item>   
+			<item>921</item>   <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>927</item>   <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>933</item>   <item>934</item>   <item>935</item>   <item>936</item>   <item>60466</item> 
+			<item>8115</item>  <item>946</item>   <item>947</item>   <item>948</item>   <item>949</item>   <item>950</item>   <item>8131</item>  <item>952</item>   
+			<item>953</item>   <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>959</item>   <item>960</item>   
+			<item>961</item>   <item>962</item>   <item>964</item>   <item>965</item>   <item>966</item>   <item>967</item>   <item>968</item>   <item>8179</item>  
+			<item>8064</item>  <item>8065</item>  <item>8066</item>  <item>8067</item>  <item>8068</item>  <item>8069</item>  <item>8070</item>  <item>8071</item>  
+			<item>60449</item> <item>60450</item> <item>60451</item> <item>60452</item> <item>60453</item> <item>60454</item> <item>60455</item> <item>60456</item> 
+			<item>7952</item>  <item>7953</item>  <item>7954</item>  <item>7955</item>  <item>7956</item>  <item>7957</item>  <item>7960</item>  <item>7961</item>  
+			<item>7962</item>  <item>7963</item>  <item>7964</item>  <item>7965</item>  <item>8080</item>  <item>8081</item>  <item>8082</item>  <item>8083</item>  
+			<item>8084</item>  <item>8085</item>  <item>8086</item>  <item>8087</item>  <item>60458</item> <item>60459</item> <item>60460</item> <item>60461</item> 
+			<item>60462</item> <item>60463</item> <item>60464</item> <item>60465</item> <item>7984</item>  <item>7985</item>  <item>7986</item>  <item>7987</item>  
+			<item>7988</item>  <item>7989</item>  <item>7990</item>  <item>7991</item>  <item>7992</item>  <item>7993</item>  <item>7994</item>  <item>7995</item>  
+			<item>7996</item>  <item>7997</item>  <item>7998</item>  <item>7999</item>  <item>8000</item>  <item>8001</item>  <item>8002</item>  <item>8003</item>  
+			<item>8004</item>  <item>8005</item>  <item>8008</item>  <item>8009</item>  <item>8010</item>  <item>8011</item>  <item>8012</item>  <item>8013</item>  
+			<item>8016</item>  <item>8017</item>  <item>8018</item>  <item>8019</item>  <item>8020</item>  <item>8021</item>  <item>8022</item>  <item>8023</item>  
+			<item>8024</item>  <item>8025</item>  <item>8026</item>  <item>8027</item>  <item>8028</item>  <item>8029</item>  <item>8030</item>  <item>8031</item>  
+			<item>8096</item>  <item>8097</item>  <item>8098</item>  <item>8099</item>  <item>8100</item>  <item>8101</item>  <item>8102</item>  <item>8103</item>  
+			<item>60467</item> <item>60468</item> <item>60469</item> <item>60470</item> <item>60471</item> <item>60472</item> <item>60473</item> <item>60474</item> 
+			<item>8114</item>  <item>8116</item>  <item>8050</item>  <item>8051</item>  <item>8130</item>  <item>8132</item>  <item>8054</item>  <item>8055</item>  
+			<item>8056</item>  <item>8057</item>  <item>8058</item>  <item>8059</item>  <item>8178</item>  <item>8180</item>  <item>7936</item>  <item>7937</item>  
+			<item>7938</item>  <item>7939</item>  <item>7940</item>  <item>7941</item>  <item>7942</item>  <item>7943</item>  <item>7968</item>  <item>7969</item>  
+			<item>7970</item>  <item>7971</item>  <item>7972</item>  <item>7973</item>  <item>7974</item>  <item>7975</item>  <item>8032</item>  <item>8033</item>  
+			<item>8034</item>  <item>8035</item>  <item>8036</item>  <item>8037</item>  <item>8038</item>  <item>8039</item>  <item>8112</item>  <item>8113</item>  
+			<item>8048</item>  <item>945</item>   <item>8049</item>  <item>8119</item>  <item>8118</item>  <item>8120</item>  <item>8121</item>  <item>59197</item> 
+			<item>59202</item> <item>8052</item>  <item>951</item>   <item>8053</item>  <item>8135</item>  <item>8134</item>  <item>8136</item>  <item>8137</item>  
+			<item>59198</item> <item>59203</item> <item>8144</item>  <item>8145</item>  <item>8150</item>  <item>8152</item>  <item>8153</item>  <item>8154</item>  
+			<item>8155</item>  <item>8160</item>  <item>8161</item>  <item>8164</item>  <item>8165</item>  <item>8166</item>  <item>8168</item>  <item>8169</item>  
+			<item>8170</item>  <item>8171</item>  <item>8172</item>  <item>8060</item>  <item>969</item>   <item>8061</item>  <item>8183</item>  <item>8182</item>  
+			<item>8184</item>  <item>8185</item>  <item>59199</item> <item>59204</item> <item>57769</item> <item>57770</item> <item>57771</item> <item>57772</item> 
+			<item>57773</item> <item>57774</item> <item>57775</item> <item>57776</item> <item>57777</item> <item>57778</item> <item>57779</item> <item>57780</item> 
+			<item>57781</item> <item>57782</item> <item>57783</item> <item>57784</item> <item>57785</item> <item>57786</item> <item>57787</item> <item>57788</item> 
+			<item>57789</item> <item>57790</item> <item>57791</item> <item>57792</item> <item>57793</item> <item>57794</item> <item>57795</item> <item>57796</item> 
+			<item>57797</item> <item>57798</item> <item>57799</item> <item>57800</item> <item>57801</item> <item>57802</item> <item>57803</item> <item>57804</item> 
+			<item>57805</item> <item>57806</item> <item>57807</item> <item>60146</item> <item>60147</item> <item>60148</item> <item>60149</item> <item>60150</item> 
+			<item>60152</item> <item>60153</item> <item>60154</item> <item>60155</item> <item>60156</item> <item>60160</item> <item>60164</item> <item>60165</item> 
+			<item>60167</item> <item>60169</item> <item>60170</item> <item>60171</item> <item>60172</item> <item>60214</item> <item>60216</item> <item>60217</item> 
+			<item>60220</item> <item>60221</item> <item>60222</item> <item>60223</item> <item>60224</item> <item>60225</item> <item>60226</item> <item>60227</item> 
+			<item>60228</item> <item>60229</item> <item>60231</item> <item>60232</item> <item>60244</item> <item>60245</item> <item>60247</item> <item>60248</item> 
+			<item>60271</item> <item>60272</item> <item>60273</item> <item>60277</item> <item>60279</item> <item>60280</item> <item>60282</item> <item>60285</item> 
+			<item>60286</item> <item>60287</item> <item>60288</item> <item>60289</item> <item>60290</item> <item>60291</item> <item>60292</item> <item>60293</item> 
+			<item>60296</item> <item>60297</item> <item>60298</item> <item>913</item>   <item>7944</item>  <item>7945</item>  <item>7946</item>  <item>7947</item>  
+			<item>7948</item>  <item>7949</item>  <item>7950</item>  <item>7951</item>  <item>919</item>   <item>7976</item>  <item>7977</item>  <item>7978</item>  
+			<item>7979</item>  <item>7980</item>  <item>7981</item>  <item>7982</item>  <item>7983</item>  <item>937</item>   <item>8040</item>  <item>8041</item>  
+			<item>8042</item>  <item>8043</item>  <item>8044</item>  <item>8045</item>  <item>8046</item>  <item>8047</item>  <item>59193</item> <item>59194</item> 
+			<item>59195</item> <item>59196</item> <item>8122</item>  <item>8138</item>  <item>8186</item>  <item>59200</item> <item>59201</item> <item>8123</item>  
+			<item>8139</item>  <item>8187</item>  <item>59271</item> <item>59272</item> <item>59207</item> <item>59273</item> <item>59205</item> <item>59206</item> 
+			<item>59270</item> <item>59274</item> <item>59275</item> <item>59276</item> <item>59277</item> <item>59302</item> <item>59303</item> <item>59304</item> 
+			<item>59305</item> <item>59306</item> <item>59307</item> <item>59308</item> <item>59309</item> <item>59310</item> <item>59311</item> <item>59312</item> 
+			<item>59313</item> <item>59314</item> <item>59315</item> <item>59316</item> <item>59317</item> <item>0</item>
+	</integer-array>
+	
+	<integer-array
+		name="CycleMacron">
+			<item>8121</item>  <item>914</item>   <item>915</item>   <item>916</item>   <item>57790</item> <item>918</item>   <item>919</item>   <item>920</item>   
+			<item>8153</item>  <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>57806</item> <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>8169</item>  <item>934</item>   <item>935</item>   <item>936</item>   <item>937</item>   
+			<item>8113</item>  <item>946</item>   <item>947</item>   <item>948</item>   <item>57779</item> <item>950</item>   <item>951</item>   <item>952</item>   
+			<item>8145</item>  <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>57795</item> <item>960</item>   
+			<item>961</item>   <item>962</item>   <item>964</item>   <item>8161</item>  <item>966</item>   <item>967</item>   <item>968</item>   <item>969</item>   
+			<item>60164</item> <item>60165</item> <item>60147</item> <item>60148</item> <item>60167</item> <item>60169</item> <item>60149</item> <item>60150</item> 
+			<item>59276</item> <item>59274</item> <item>59304</item> <item>59305</item> <item>59306</item> <item>59307</item> <item>7950</item>  <item>7951</item>  
+			<item>57782</item> <item>57783</item> <item>57784</item> <item>57785</item> <item>57786</item> <item>57787</item> <item>7960</item>  <item>7961</item>  
+			<item>7962</item>  <item>7963</item>  <item>7964</item>  <item>7965</item>  <item>7968</item>  <item>7969</item>  <item>7970</item>  <item>7971</item>  
+			<item>7972</item>  <item>7973</item>  <item>7974</item>  <item>7975</item>  <item>7976</item>  <item>7977</item>  <item>7978</item>  <item>7979</item>  
+			<item>7980</item>  <item>7981</item>  <item>7982</item>  <item>7983</item>  <item>60220</item> <item>60222</item> <item>60244</item> <item>60245</item> 
+			<item>60221</item> <item>60223</item> <item>60247</item> <item>60248</item> <item>59277</item> <item>59275</item> <item>59308</item> <item>59309</item> 
+			<item>59310</item> <item>59311</item> <item>7998</item>  <item>7999</item>  <item>57798</item> <item>57799</item> <item>57800</item> <item>57801</item> 
+			<item>57802</item> <item>57803</item> <item>8008</item>  <item>8009</item>  <item>8010</item>  <item>8011</item>  <item>8012</item>  <item>8013</item>  
+			<item>60285</item> <item>60286</item> <item>60273</item> <item>60277</item> <item>60287</item> <item>60288</item> <item>60279</item> <item>60280</item> 
+			<item>59302</item> <item>59312</item> <item>59313</item> <item>59314</item> <item>59315</item> <item>59316</item> <item>8030</item>  <item>8031</item>  
+			<item>8032</item>  <item>8033</item>  <item>8034</item>  <item>8035</item>  <item>8036</item>  <item>8037</item>  <item>8038</item>  <item>8039</item>  
+			<item>8040</item>  <item>8041</item>  <item>8042</item>  <item>8043</item>  <item>8044</item>  <item>8045</item>  <item>8046</item>  <item>8047</item>  
+			<item>59193</item> <item>60160</item> <item>57781</item> <item>57780</item> <item>8052</item>  <item>8053</item>  <item>60216</item> <item>60217</item> 
+			<item>57797</item> <item>57796</item> <item>60271</item> <item>60282</item> <item>8060</item>  <item>8061</item>  <item>8064</item>  <item>8065</item>  
+			<item>8066</item>  <item>8067</item>  <item>8068</item>  <item>8069</item>  <item>8070</item>  <item>8071</item>  <item>8080</item>  <item>8081</item>  
+			<item>8082</item>  <item>8083</item>  <item>8084</item>  <item>8085</item>  <item>8086</item>  <item>8087</item>  <item>8096</item>  <item>8097</item>  
+			<item>8098</item>  <item>8099</item>  <item>8100</item>  <item>8101</item>  <item>8102</item>  <item>8103</item>  <item>945</item>   <item>8112</item>  
+			<item>8114</item>  <item>8115</item>  <item>8116</item>  <item>60146</item> <item>8119</item>  <item>913</item>   <item>8120</item>  <item>59194</item> 
+			<item>59317</item> <item>8130</item>  <item>8131</item>  <item>8132</item>  <item>8134</item>  <item>8135</item>  <item>8136</item>  <item>8137</item>  
+			<item>8138</item>  <item>8139</item>  <item>953</item>   <item>8144</item>  <item>60214</item> <item>921</item>   <item>8152</item>  <item>59195</item> 
+			<item>59200</item> <item>965</item>   <item>8160</item>  <item>8164</item>  <item>8165</item>  <item>60272</item> <item>933</item>   <item>8168</item>  
+			<item>59196</item> <item>59201</item> <item>8172</item>  <item>8178</item>  <item>8179</item>  <item>8180</item>  <item>8182</item>  <item>8183</item>  
+			<item>8184</item>  <item>8185</item>  <item>8186</item>  <item>8187</item>  <item>949</item>   <item>959</item>   <item>57771</item> <item>59302</item> 
+			<item>59313</item> <item>59315</item> <item>57775</item> <item>57776</item> <item>57777</item> <item>57778</item> <item>57769</item> <item>8051</item>  
+			<item>8050</item>  <item>7952</item>  <item>7953</item>  <item>7954</item>  <item>7955</item>  <item>7956</item>  <item>7957</item>  <item>57788</item> 
+			<item>57789</item> <item>57791</item> <item>917</item>   <item>57792</item> <item>57793</item> <item>57794</item> <item>57770</item> <item>8057</item>  
+			<item>8056</item>  <item>8000</item>  <item>8001</item>  <item>8002</item>  <item>8003</item>  <item>8004</item>  <item>8005</item>  <item>57804</item> 
+			<item>57805</item> <item>57807</item> <item>927</item>   <item>8118</item>  <item>60154</item> <item>60156</item> <item>7942</item>  <item>7943</item>  
+			<item>8048</item>  <item>7936</item>  <item>7938</item>  <item>7941</item>  <item>7939</item>  <item>60170</item> <item>60153</item> <item>60171</item> 
+			<item>60172</item> <item>60155</item> <item>8049</item>  <item>7937</item>  <item>7940</item>  <item>8150</item>  <item>60228</item> <item>60224</item> 
+			<item>60225</item> <item>60226</item> <item>60227</item> <item>60231</item> <item>8055</item>  <item>7984</item>  <item>7988</item>  <item>7985</item>  
+			<item>8054</item>  <item>7986</item>  <item>7989</item>  <item>7987</item>  <item>60229</item> <item>60232</item> <item>7990</item>  <item>7991</item>  
+			<item>60291</item> <item>8166</item>  <item>60296</item> <item>60298</item> <item>8022</item>  <item>8023</item>  <item>60289</item> <item>60292</item> 
+			<item>60290</item> <item>60293</item> <item>60297</item> <item>8059</item>  <item>8017</item>  <item>8058</item>  <item>8016</item>  <item>8020</item>  
+			<item>8018</item>  <item>8021</item>  <item>8019</item>  <item>60448</item> <item>60449</item> <item>60450</item> <item>60451</item> <item>60452</item> 
+			<item>60453</item> <item>60454</item> <item>60455</item> <item>60456</item> <item>60457</item> <item>60458</item> <item>60459</item> <item>60460</item> 
+			<item>60461</item> <item>60462</item> <item>60463</item> <item>60464</item> <item>60465</item> <item>60466</item> <item>60467</item> <item>60468</item> 
+			<item>60469</item> <item>60470</item> <item>60471</item> <item>60472</item> <item>60473</item> <item>60474</item> <item>60152</item> <item>8122</item>  
+			<item>8154</item>  <item>8170</item>  <item>59197</item> <item>59198</item> <item>59199</item> <item>8155</item>  <item>8171</item>  <item>59202</item> 
+			<item>59203</item> <item>59204</item> <item>59205</item> <item>59206</item> <item>59207</item> <item>59270</item> <item>59271</item> <item>59272</item> 
+			<item>59273</item> <item>7945</item>  <item>7993</item>  <item>7944</item>  <item>7992</item>  <item>8024</item>  <item>59303</item> <item>7946</item>  
+			<item>7947</item>  <item>7948</item>  <item>7949</item>  <item>7994</item>  <item>7995</item>  <item>7996</item>  <item>7997</item>  <item>8025</item>  
+			<item>8026</item>  <item>8027</item>  <item>8028</item>  <item>8029</item>  <item>8123</item>  <item>0</item>
+	</integer-array>
+
+	
+	<integer-array
+		name="CycleCase">
+			<item>945</item>   <item>946</item>   <item>947</item>   <item>948</item>   <item>949</item>   <item>950</item>   <item>951</item>   <item>952</item>   
+			<item>953</item>   <item>954</item>   <item>955</item>   <item>956</item>   <item>957</item>   <item>958</item>   <item>959</item>   <item>960</item>   
+			<item>961</item>   <item>962</item>   <item>964</item>   <item>965</item>   <item>966</item>   <item>967</item>   <item>968</item>   <item>969</item>   
+			<item>913</item>   <item>914</item>   <item>915</item>   <item>916</item>   <item>917</item>   <item>918</item>   <item>919</item>   <item>920</item>   
+			<item>921</item>   <item>922</item>   <item>923</item>   <item>924</item>   <item>925</item>   <item>926</item>   <item>927</item>   <item>928</item>   
+			<item>929</item>   <item>931</item>   <item>932</item>   <item>933</item>   <item>934</item>   <item>935</item>   <item>936</item>   <item>937</item>   
+			<item>7944</item>  <item>7945</item>  <item>7946</item>  <item>7947</item>  <item>7948</item>  <item>7949</item>  <item>7950</item>  <item>7951</item>  
+			<item>7936</item>  <item>7937</item>  <item>7938</item>  <item>7939</item>  <item>7940</item>  <item>7941</item>  <item>7942</item>  <item>7943</item>  
+			<item>7960</item>  <item>7961</item>  <item>7962</item>  <item>7963</item>  <item>7964</item>  <item>7965</item>  <item>7952</item>  <item>7953</item>  
+			<item>7954</item>  <item>7955</item>  <item>7956</item>  <item>7957</item>  <item>7976</item>  <item>7977</item>  <item>7978</item>  <item>7979</item>  
+			<item>7980</item>  <item>7981</item>  <item>7982</item>  <item>7983</item>  <item>7968</item>  <item>7969</item>  <item>7970</item>  <item>7971</item>  
+			<item>7972</item>  <item>7973</item>  <item>7974</item>  <item>7975</item>  <item>7992</item>  <item>7993</item>  <item>7994</item>  <item>7995</item>  
+			<item>7996</item>  <item>7997</item>  <item>7998</item>  <item>7999</item>  <item>7984</item>  <item>7985</item>  <item>7986</item>  <item>7987</item>  
+			<item>7988</item>  <item>7989</item>  <item>7990</item>  <item>7991</item>  <item>8008</item>  <item>8009</item>  <item>8010</item>  <item>8011</item>  
+			<item>8012</item>  <item>8013</item>  <item>8000</item>  <item>8001</item>  <item>8002</item>  <item>8003</item>  <item>8004</item>  <item>8005</item>  
+			<item>8024</item>  <item>8025</item>  <item>8026</item>  <item>8027</item>  <item>8028</item>  <item>8029</item>  <item>8030</item>  <item>8031</item>  
+			<item>8016</item>  <item>8017</item>  <item>8018</item>  <item>8019</item>  <item>8020</item>  <item>8021</item>  <item>8022</item>  <item>8023</item>  
+			<item>8040</item>  <item>8041</item>  <item>8042</item>  <item>8043</item>  <item>8044</item>  <item>8045</item>  <item>8046</item>  <item>8047</item>  
+			<item>8032</item>  <item>8033</item>  <item>8034</item>  <item>8035</item>  <item>8036</item>  <item>8037</item>  <item>8038</item>  <item>8039</item>  
+			<item>8122</item>  <item>8123</item>  <item>8136</item>  <item>8137</item>  <item>8138</item>  <item>8139</item>  <item>8154</item>  <item>8155</item>  
+			<item>8184</item>  <item>8185</item>  <item>8170</item>  <item>8171</item>  <item>8186</item>  <item>8187</item>  <item>60449</item> <item>60450</item> 
+			<item>60451</item> <item>60452</item> <item>60453</item> <item>60454</item> <item>60455</item> <item>60456</item> <item>60458</item> <item>60459</item> 
+			<item>60460</item> <item>60461</item> <item>60462</item> <item>60463</item> <item>60464</item> <item>60465</item> <item>60467</item> <item>60468</item> 
+			<item>60469</item> <item>60470</item> <item>60471</item> <item>60472</item> <item>60473</item> <item>60474</item> <item>8120</item>  <item>8121</item>  
+			<item>59197</item> <item>60448</item> <item>59202</item> <item>59205</item> <item>59271</item> <item>8112</item>  <item>8113</item>  <item>8048</item>  
+			<item>8049</item>  <item>59198</item> <item>60457</item> <item>59203</item> <item>59206</item> <item>59272</item> <item>8050</item>  <item>8051</item>  
+			<item>8052</item>  <item>8053</item>  <item>8152</item>  <item>8153</item>  <item>59303</item> <item>8144</item>  <item>8145</item>  <item>8054</item>  
+			<item>8055</item>  <item>8168</item>  <item>8169</item>  <item>57771</item> <item>8172</item>  <item>59207</item> <item>8160</item>  <item>8161</item>  
+			<item>8058</item>  <item>8059</item>  <item>8165</item>  <item>59199</item> <item>60466</item> <item>59204</item> <item>59270</item> <item>59273</item> 
+			<item>8056</item>  <item>8057</item>  <item>8060</item>  <item>8061</item>  <item>57791</item> <item>57807</item> <item>8164</item>  <item>8016</item>  
+			<item>8018</item>  <item>8020</item>  <item>8022</item>  <item>57776</item> <item>57788</item> <item>57789</item> <item>57790</item> <item>57780</item> 
+			<item>57781</item> <item>57782</item> <item>57783</item> <item>57784</item> <item>57785</item> <item>57786</item> <item>57787</item> <item>57777</item> 
+			<item>57778</item> <item>57779</item> <item>57769</item> <item>57792</item> <item>57804</item> <item>57805</item> <item>57806</item> <item>57796</item> 
+			<item>57797</item> <item>57798</item> <item>57799</item> <item>57800</item> <item>57801</item> <item>57802</item> <item>57803</item> <item>57793</item> 
+			<item>57794</item> <item>57795</item> <item>57770</item> <item>60146</item> <item>59304</item> <item>59305</item> <item>60149</item> <item>60150</item> 
+			<item>60152</item> <item>60153</item> <item>60154</item> <item>60155</item> <item>60156</item> <item>59317</item> <item>59276</item> <item>59274</item> 
+			<item>59306</item> <item>59307</item> <item>60170</item> <item>60171</item> <item>60172</item> <item>60214</item> <item>59195</item> <item>59200</item> 
+			<item>59277</item> <item>59310</item> <item>59275</item> <item>59311</item> <item>60224</item> <item>60225</item> <item>60226</item> <item>60227</item> 
+			<item>60228</item> <item>60229</item> <item>60231</item> <item>60232</item> <item>59308</item> <item>59309</item> <item>60247</item> <item>60248</item> 
+			<item>59196</item> <item>60272</item> <item>59313</item> <item>59314</item> <item>60279</item> <item>60280</item> <item>59201</item> <item>59302</item> 
+			<item>59312</item> <item>59315</item> <item>59316</item> <item>60289</item> <item>60290</item> <item>60291</item> <item>60292</item> <item>60293</item> 
+			<item>60296</item> <item>60297</item> <item>60298</item> <item>8115</item>  <item>8064</item>  <item>8065</item>  <item>8066</item>  <item>8067</item>  
+			<item>8068</item>  <item>8069</item>  <item>8070</item>  <item>8071</item>  <item>8131</item>  <item>8080</item>  <item>8081</item>  <item>8082</item>  
+			<item>8083</item>  <item>8084</item>  <item>8085</item>  <item>8086</item>  <item>8087</item>  <item>8179</item>  <item>8096</item>  <item>8097</item>  
+			<item>8098</item>  <item>8099</item>  <item>8100</item>  <item>8101</item>  <item>8102</item>  <item>8103</item>  <item>59194</item> <item>59193</item> 
+			<item>60216</item> <item>60271</item> <item>8114</item>  <item>8130</item>  <item>8178</item>  <item>60217</item> <item>60282</item> <item>8116</item>  
+			<item>8132</item>  <item>8180</item>  <item>8118</item>  <item>8134</item>  <item>8166</item>  <item>8182</item>  <item>8119</item>  <item>8135</item>  
+			<item>8183</item>  <item>60165</item> <item>60222</item> <item>60164</item> <item>60220</item> <item>60285</item> <item>8150</item>  <item>60147</item> 
+			<item>60148</item> <item>60167</item> <item>60169</item> <item>60244</item> <item>60245</item> <item>60221</item> <item>60223</item> <item>60286</item> 
+			<item>60273</item> <item>60277</item> <item>60287</item> <item>60288</item> <item>60160</item> <item>0</item>
+	</integer-array>
+    
+   
+    
+</resources>
