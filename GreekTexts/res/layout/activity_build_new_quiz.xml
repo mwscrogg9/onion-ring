@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="vertical" >
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="14dp"
+	        android:focusable="false"
+	        android:text="Select Quiz Type:"
+	        android:textSize="20dp" />
+
+		    <RadioGroup
+	        android:id="@+id/greekorenglishbuttongroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+			android:checkedButton="@+id/radioShowGreek">
+			
+	        <RadioButton
+	            android:id="@+id/radioShowGreek"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:nextFocusDown="@+id/radioShowEnglish"
+	            android:nextFocusUp="@+id/selectSectionsForQuiz"
+	            android:text="Show Greek" />
+
+	        <RadioButton
+	            android:id="@+id/radioShowEnglish"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:nextFocusDown="@+id/RadioUseFlags"
+	            android:nextFocusUp="@id/radioShowGreek"
+	            android:text="Show English" />
+
+	    </RadioGroup>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="14dp"
+	        android:focusable="false"
+	        android:text="Use of Flags:"
+	        android:textSize="20dp" />
+	    
+	    <RadioGroup
+	        android:id="@+id/flagbuttongroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:checkedButton="@+id/RadioUseFlags"
+	        android:focusable="false"
+	        android:orientation="horizontal" >
+	        
+	        <RadioButton
+	            android:id="@+id/RadioUseFlags"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:nextFocusDown="@+id/radiodontuseflags"
+	            android:nextFocusUp="@id/radioShowEnglish"
+	            android:text="Use Flags" />
+
+	        <RadioButton
+	            android:id="@+id/radiodontuseflags"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:nextFocusDown="@+id/yesAutoRepeat"
+	            android:nextFocusUp="@id/RadioUseFlags"
+	            android:text="No Flags" />
+
+	    </RadioGroup>
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="14dp"
+	        android:focusable="false"
+	        android:text="Auto-Repeat:"
+	        android:textSize="20dp" />
+	    
+	    <RadioGroup
+	        android:id="@+id/repeatbuttongroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:checkedButton="@+id/yesAutoRepeat"
+	        android:focusable="false"
+	        android:orientation="horizontal" >
+
+	        <RadioButton
+	            android:id="@+id/yesAutoRepeat"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:nextFocusDown="@+id/noAutoRepeat"
+	            android:nextFocusUp="@id/radiodontuseflags"
+	            android:text="Yes" />
+
+	        <RadioButton
+	            android:id="@+id/noAutoRepeat"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:nextFocusDown="@+id/startnewquiz"
+	            android:nextFocusUp="@id/yesAutoRepeat"
+	            android:text="No" />
+
+	    </RadioGroup>
+	    
+	    <Button
+	        android:id="@+id/startnewquiz"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:nextFocusDown="@+id/backtomain"
+	        android:nextFocusUp="@id/noAutoRepeat"
+	        android:onClick="startNewQuiz"
+	        android:text="Start" />
+	    
+	    <Button
+	        android:id="@+id/backtomain"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:nextFocusDown="@+id/selectall"
+	        android:nextFocusUp="@id/startnewquiz"
+	        android:onClick="returnToMain"
+	        android:text="Main Menu" />
+	    
+	    <Button
+	        android:id="@id/selectall"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:nextFocusDown="@+id/clearall"
+	        android:nextFocusUp="@id/backtomain"
+	        android:onClick="selectAll"
+	        android:text="Select All" />
+	    
+	     <Button
+	         android:id="@id/clearall"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:nextFocusDown="@+id/selectSectionsForQuiz"
+	         android:nextFocusUp="@id/selectall"
+	         android:onClick="clearAll"
+	         android:text="Clear All" />
+	    
+    </LinearLayout>
+ 
+    <ListView
+        android:id="@+id/selectSectionsForQuiz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:focusable="true"
+        android:nextFocusDown="@id/radioShowGreek"
+        android:nextFocusUp="@id/clearall"
+        android:paddingRight="6dp" >
+
+    </ListView>
+
+</LinearLayout>

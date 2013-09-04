@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 		
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"	>
+
+		<Button
+			android:id="@+id/button_red"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="syl"
+			android:textSize="24dp"
+			android:onClick="clickMacron" />	
+		<Button
+			android:id="@+id/button_omega"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C9"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_epsilon"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B5"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_rho"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C1"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_tau"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C4"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />		
+		<Button
+			android:id="@+id/button_upsilon"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C5"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_theta"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B8"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_iota"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B9"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_omicron"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03BF"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_pi"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C0"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+	</LinearLayout>	
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"	>
+			
+		<Button
+			android:id="@+id/button_caps"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="case"
+			android:textSize="24dp"
+			android:onClick="clickCaps" />
+		<Button
+			android:id="@+id/button_alpha"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B1"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_sigma"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C2"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_delta"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B4"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_phi"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C6"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_gamma"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B3"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />		
+		<Button
+			android:id="@+id/button_eta"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03B7"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_psi"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03C8"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_kappa"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03BA"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_lamda"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="\u03BB"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+		android:paddingLeft="40dp"
+		android:paddingRight="40dp" >
+
+		<Button
+			android:id="@+id/button_accent"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="acc"
+			android:textSize="24dp"
+			android:onClick="clickAccent" />	
+		<Button
+			android:id="@+id/button_zeta"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03B6"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_xi"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03BE"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_chi"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03C7"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_beta"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03B2"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_nu"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03BD"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />
+		<Button
+			android:id="@+id/button_mu"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03BC"
+			android:textSize="24dp"
+			android:onClick="clickAlpha" />	
+		<Button
+			android:id="@+id/button_breath"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="brth"
+			android:textSize="24dp"
+			android:onClick="clickBreath" />
+		<Button
+			android:id="@+id/button_iotasub"		
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="\u03B9-sub"
+			android:textSize="24dp"
+			android:onClick="clickIota" />
+		<Button
+			android:id="@+id/button_commahyphen"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text=",-"
+			android:textSize="24dp"
+			android:onClick="clickCommaHyphen" />
+		<ImageButton
+			android:id="@+id/button_getedits"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="fill_parent"
+			android:src="@drawable/greenflagblackmicro"
+			android:textSize="24dp"
+			android:onClick="clickGetEdits" />
+
+	</LinearLayout>
+	
+	<LinearLayout  
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"  >
+		
+		<EditText
+     	  	android:id="@+id/secondtextview" 
+			android:layout_width="0dp"
+			android:layout_weight="5"
+   		    android:layout_height="wrap_content"
+			android:textSize="36dp"/>
+		
+		<Button
+			android:id="@+id/button_enter"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="Add"
+			android:textSize="24dp"
+			android:onClick="clickAddNewWord"
+			 />
+			 
+		<Button
+			android:id="@+id/button_clear"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="Clear"
+			android:textSize="24dp"
+			android:onClick="clickClear"
+		/>
+		
+		<Button
+			android:id="@+id/button_back"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="Menu"
+			android:textSize="24dp"
+			android:onClick="clickMenu"
+		/>
+		
+		<Button
+			android:id="@+id/button_delete_entry"		
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="Del\u2026"
+			android:textSize="24dp"
+			android:onClick="goToDeleteWord"
+		/>
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"  >
+	
+		<EditText
+      	 	android:id="@+id/englishText" 
+			android:layout_width="0dp"
+			android:layout_weight="5"
+     	   	android:layout_height="wrap_content"
+			android:textSize="28dp"
+		/>
+		
+		<Spinner
+			android:id="@+id/selectSectionSpinner" 
+			android:layout_width="0dp"
+			android:layout_weight="2"
+     	   	android:layout_height="wrap_content"
+			android:textSize="28dp"	
+		/>
+		
+		<Button
+			android:layout_width="0dp"
+			android:layout_weight="2"
+			android:layout_height="wrap_content"
+			android:text="Sections\u2026"
+			android:textSize="24dp"
+			android:onClick="clickNewSec"
+		/>
+		
+		
+		
+	</LinearLayout>
+	
+	
+</LinearLayout>
+
